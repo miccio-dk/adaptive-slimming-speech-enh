@@ -100,3 +100,19 @@ body {
 .slider-pagination .slider-page {
   background: #000000;
 }
+
+.image-container {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+}
